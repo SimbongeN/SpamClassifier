@@ -9,6 +9,10 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
+#download stopwrds and wordnet
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 #load vectorizer and model
 vectorizer = pickle.load(open("vectortizer.pkl","rb"))
 model = pickle.load(open("model.pkl","rb"))
