@@ -4,7 +4,7 @@
 
 This repository contains a simple spam classifier implemented using the Naive Bayes algorithm. The goal is to classify emails as either spam or ham (non-spam) based on their content.
 
-## live demo - 
+## live demo - https://spamclassifier-myhpawdnzqc3u35ywdgkoy.streamlit.app/
 ## Features
 
 - **Data Preprocessing**:
