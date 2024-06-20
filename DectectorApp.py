@@ -74,7 +74,7 @@ if st.button(":red[Classify ]"):
     if result == 1:
         st.subheader("SPAM")
         spam_count += 1
-        diff = orginal - spam_count
+        diff = spam_count - orginal
     else:
         st.subheader("NOT SPAM")
 
