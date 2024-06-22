@@ -73,15 +73,14 @@ vector_input = vectorizer.transform([Message])
 result = model.predict(vector_input)
 
 #display user data
-diff = 0
 if st.button(":red[Classify ]"):
     if result == 1:
         st.subheader("SPAM")
         spam_count += 1
-        diff = spam_count - orginal
     else:
         st.subheader("NOT SPAM")
-
+             
+diff = spam_count - orginal
 st.divider()#content divider
 
 st.metric("Spam Detected", spam_count, str(diff)+"+")
