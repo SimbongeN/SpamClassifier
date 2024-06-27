@@ -40,7 +40,7 @@ modelData = pd.read_csv('SpamDataSet.csv',sep=";",encoding="ISO-8859-1")
 num_rows = modelData.shape[0] #get number of data used
 category = modelData['Category'].value_counts()
 spam_count = category.get('spam')
-orginal = spam_count
+orginal = 7993
 
 #Display the Models data
 col1, col2, col3= st.columns(3)
