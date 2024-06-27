@@ -83,5 +83,6 @@ if st.button(":red[Classify ]"):
 diff = spam_count - orginal
 st.divider()#content divider
 
-st.metric("Spam Detected", spam_count, str(diff)+"+")
+#add change in spam emails and sms classified 
+#st.metric("Spam Detected", spam_count, str(diff)+"+")
     
